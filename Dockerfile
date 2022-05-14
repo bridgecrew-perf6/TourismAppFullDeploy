@@ -1,4 +1,4 @@
 FROM httpd
 RUN apt-get update
-COPY ./Toursim.html /var/www/html/Toursim.html
+COPY ./Tourism.html /var/www/html/Tourism.html
 CMD ['bin/bash']
